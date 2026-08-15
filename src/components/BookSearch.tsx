@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { searchBooks } from '../services/googleBooks'
+import { searchBooks } from '../services/bookSearch'
 import type { Book } from '../types/Book'
 import './BookSearch.css'
 
