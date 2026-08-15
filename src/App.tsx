@@ -1,14 +1,20 @@
+import { useState } from 'react'
 import './App.css'
 import Bookshelf from './components/Bookshelf'
+import BookSearch from './components/BookSearch'
+import type { Book } from './types/Book'
 
 function App() {
+  const [books, setBooks] = useState<Book[]>([])
+
+  function handleAddBook(book: Book) {
+    setBooks([...books, book])
+  }
+
   return (
     <div className="app">
       <h1 className="library-title">Welcome to my library!</h1>
-      <button className="add-book-button" onClick={()=> console.log('clicked')}>
-        Add a book
-      </button>
-      
+      <BookSearch onAddBook={handleAddBook} />
       <button className="button" onClick={() => console.log('clicked')}>
         What are you looking for?
       </button>
