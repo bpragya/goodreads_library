@@ -1,8 +1,7 @@
 .bookshelf {
   display: flex;
   flex-direction: column;
-  width: 900px;
-  max-width: 100%;
+  width: 100%;
 }
 
 /* .bookshelf-side {
@@ -32,9 +31,28 @@
 }
 
 .shelf-board {
-  height: 16px;
-  background: #a0522d;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  height: 20px;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      rgba(0, 0, 0, 0.03) 20px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.04) 60px,
+      transparent 120px
+    ),
+    linear-gradient(to bottom, #c4724a, #a0522d 30%, #8b4726 80%, #7a3e20);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.3),
+    0 2px 3px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {

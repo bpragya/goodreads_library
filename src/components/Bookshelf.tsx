@@ -1,3 +1,4 @@
+import { useRef, useState, useEffect } from 'react'
 import type { Book } from '../types/Book'
 import BookSpine from './BookSpine'
 import './Bookshelf.css'
@@ -6,8 +7,6 @@ interface BookshelfProps {
   shelfCount: number
   books: Book[]
 }
-
-const SHELF_WIDTH = 900
 
 function getSpineWidth(pageCount: number) {
   if (pageCount <= 0) return 25
@@ -19,13 +18,27 @@ function getSpineWidth(pageCount: number) {
 }
 
 function Bookshelf({ shelfCount, books }: BookshelfProps) {
+  const containerRef = useRef<HTMLDivElement>(null)
+  const [shelfWidth, setShelfWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function updateWidth() {
+      if (containerRef.current) {
+        setShelfWidth(containerRef.current.offsetWidth)
+      }
+    }
+    updateWidth()
+    window.addEventListener('resize', updateWidth)
+    return () => window.removeEventListener('resize', updateWidth)
+  }, [])
+
   const shelves: Book[][] = Array.from({ length: shelfCount }, () => [])
   let currentShelf = 0
   let currentWidth = 0
 
   for (const book of books) {
     const width = getSpineWidth(book.pageCount)
-    if (currentWidth + width > SHELF_WIDTH && currentShelf < shelfCount - 1) {
+    if (currentWidth + width > shelfWidth && currentShelf < shelfCount - 1) {
       currentShelf++
       currentWidth = 0
     }
@@ -34,7 +47,7 @@ function Bookshelf({ shelfCount, books }: BookshelfProps) {
   }
 
   return (
-    <div className="bookshelf">
+    <div className="bookshelf" ref={containerRef}>
       {shelves.map((shelfBooks, i) => (
         <div key={i} className="shelf">
           <div className="shelf-books">
