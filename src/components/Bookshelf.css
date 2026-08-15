@@ -1,0 +1,51 @@
+.bookshelf {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+}
+
+/* .bookshelf-side {
+  width: 4px;
+  background: #a0522d;
+  flex-shrink: 0;
+} */
+
+.bookshelf-center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.shelf {
+  display: flex;
+  flex-direction: column;
+}
+
+.shelf-books {
+  height: 180px;
+  background: transparent;
+}
+
+.shelf-board {
+  height: 16px;
+  background: #a0522d;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .bookshelf {
+    width: 100%;
+  }
+
+  /* .bookshelf-side {
+    width: 3px;
+  } */
+
+  .shelf-books {
+    height: 140px;
+  }
+
+  .shelf-board {
+    height: 12px;
+  }
+}
