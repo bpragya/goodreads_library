@@ -15,10 +15,7 @@ function App() {
     <div className="app">
       <h1 className="library-title">Welcome to my library!</h1>
       <BookSearch onAddBook={handleAddBook} />
-      <button className="button" onClick={() => console.log('clicked')}>
-        What are you looking for?
-      </button>
-      <Bookshelf shelfCount={3} />
+      <Bookshelf shelfCount={3} books={books} />
     </div>
   )
 }

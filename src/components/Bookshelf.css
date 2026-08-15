@@ -1,5 +1,6 @@
 .bookshelf {
   display: flex;
+  flex-direction: column;
   width: 900px;
   max-width: 100%;
 }
@@ -24,6 +25,10 @@
 .shelf-books {
   height: 180px;
   background: transparent;
+  display: flex;
+  align-items: flex-end;
+  gap: 0px;
+  padding: 0;
 }
 
 .shelf-board {
