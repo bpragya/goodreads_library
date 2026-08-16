@@ -49,6 +49,15 @@ function BookSearch({ onAddBook }: BookSearchProps) {
     setShowDropdown(false)
   }
 
+  function handleKeyDown(e: React.KeyboardEvent) {
+    if (e.key === 'Enter' && results.length > 0) {
+      const match = results.find(
+        (b) => b.title.toLowerCase() === query.trim().toLowerCase()
+      )
+      handleSelect(match || results[0])
+    }
+  }
+
   return (
     <div className="autocomplete" ref={wrapperRef}>
       <input
@@ -58,6 +67,7 @@ function BookSearch({ onAddBook }: BookSearchProps) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => results.length > 0 && setShowDropdown(true)}
+        onKeyDown={handleKeyDown}
       />
       {showDropdown && (
         <div className="autocomplete-dropdown">

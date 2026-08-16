@@ -2,7 +2,7 @@ import type { Book } from '../types/Book'
 
 export async function searchBooks(query: string): Promise<Book[]> {
   const response = await fetch(
-    `https://openlibrary.org/search.json?q=${encodeURIComponent(query)}&limit=10`
+    `https://openlibrary.org/search.json?q=${encodeURIComponent(query)}&limit=10&fields=key,title,author_name,cover_i,number_of_pages_median,first_publish_year,subject`
   )
   const data = await response.json()
 
