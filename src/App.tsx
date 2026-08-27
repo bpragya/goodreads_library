@@ -24,7 +24,7 @@ function App() {
     <div className="app">
       <h1 className="library-title">Welcome to my library!</h1>
       <BookSearch onAddBook={handleAddBook} />
-      <Bookshelf shelfCount={3} books={books} />
+      <Bookshelf books={books} />
     </div>
   )
 }

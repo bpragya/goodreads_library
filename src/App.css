@@ -10,9 +10,12 @@
 }
 
 .library-title {
-  font-family: 'Homemade Apple';
+  font-family: 'Lora', serif;
   font-size: 90px;
   color: #27ADF5;
   margin-bottom: 32px;
+  text-shadow:
+    2px 2px 0 rgba(0, 0, 0, 0.1),
+    4px 4px 10px rgba(0, 0, 0, 0.15);
 }
 

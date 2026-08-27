@@ -40,9 +40,9 @@ function BookSpine({ book }: BookSpineProps) {
     setHovered(true)
     if (spineRef.current) {
       const rect = spineRef.current.getBoundingClientRect()
-      let left = rect.left + rect.width / 2 - 110
+      let left = rect.left + rect.width / 2 - 135
       if (left < 8) left = 8
-      if (left + 220 > window.innerWidth - 8) left = window.innerWidth - 228
+      if (left + 270 > window.innerWidth - 8) left = window.innerWidth - 278
       setTooltipPos({
         top: rect.top - 12,
         left,

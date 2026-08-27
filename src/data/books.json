@@ -1,14 +1,633 @@
 [
   {
-    "id": "goodreads-25414929",
-    "title": "The Lexie Project (Something Real, #2)",
+    "id": "/works/OL5749848W",
+    "title": "The Tipping Point",
     "authors": [
-      "Heather Demetrios"
+      "Malcolm Gladwell"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/10873292-M.jpg",
+    "pageCount": 288,
+    "publishedDate": "2000",
+    "genre": [
+      "Contagion (Social psychology)",
+      "Business",
+      "Causation"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL5749849W",
+    "title": "Blink",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/14421850-M.jpg",
+    "pageCount": 295,
+    "publishedDate": "2004",
+    "genre": [
+      "Intuition",
+      "Education",
+      "Recovery"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL5749847W",
+    "title": "Outliers",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/10021591-M.jpg",
+    "pageCount": 320,
+    "publishedDate": "2008",
+    "genre": [
+      "Psychology",
+      "Business",
+      "Successful people"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL16809805W",
+    "title": "David and Goliath",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7276285-M.jpg",
+    "pageCount": 305,
+    "publishedDate": "2013",
+    "genre": [
+      "Motivation",
+      "Motivation (Psychology)",
+      "Struggle"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL20126964W",
+    "title": "Talking to Strangers",
+    "authors": [
+      "Malcolm Gladwell"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/8779682-M.jpg",
+    "pageCount": 386,
+    "publishedDate": "2019",
+    "genre": [
+      "Interpersonal communication",
+      "Strangers",
+      "nyt:combined-print-and-e-book-nonfiction=2019-09-29"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17075811W",
+    "title": "Sapiens",
+    "authors": [
+      "Yuval Noah Harari"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+    "pageCount": 456,
+    "publishedDate": "2011",
+    "genre": [
+      "Technology and civilization",
+      "Human beings",
+      "Historical Chronology"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17930368W",
+    "title": "Atomic Habits",
+    "authors": [
+      "James Clear"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/12539702-M.jpg",
+    "pageCount": 323,
+    "publishedDate": "2016",
+    "genre": [
+      "Habit",
+      "Habit breaking",
+      "Behavior modification"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL16484595W",
+    "title": "Quiet",
+    "authors": [
+      "Susan Cain"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7079753-M.jpg",
+    "pageCount": 368,
+    "publishedDate": "2012",
+    "genre": [
+      "Extraversion",
+      "Introverts",
+      "Interpersonal relations"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17824318W",
+    "title": "Born a Crime",
+    "authors": [
+      "Trevor Noah"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/8294078-M.jpg",
+    "pageCount": 304,
+    "publishedDate": "2016",
+    "genre": [
+      "apartheid",
+      "PERFORMING ARTS",
+      "HUMOR"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL29922995W",
+    "title": "Becoming Michelle Obama",
+    "authors": [
+      "Vincent Verret"
     ],
     "cover": "",
     "pageCount": 0,
-    "publishedDate": "2015",
+    "publishedDate": "2018",
     "genre": [],
+    "description": ""
+  },
+  {
+    "id": "/works/OL20652361W",
+    "title": "Untamed",
+    "authors": [
+      "Glennon Doyle Melton"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/9295686-M.jpg",
+    "pageCount": 352,
+    "publishedDate": "2020",
+    "genre": [
+      "Women, united states, biography",
+      "Christian women",
+      "Christian life"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17356252W",
+    "title": "When Breath Becomes Air",
+    "authors": [
+      "Paul Kalanithi"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/11463139-M.jpg",
+    "pageCount": 232,
+    "publishedDate": "2016",
+    "genre": [
+      "philosophy",
+      "Neurosurgeons",
+      "Cancer"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL46760W",
+    "title": "The Glass Castle",
+    "authors": [
+      "Jeannette Walls"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/11517692-M.jpg",
+    "pageCount": 347,
+    "publishedDate": "2005",
+    "genre": [
+      "Poor",
+      "Problem families",
+      "Dysfunctional families"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL16142316W",
+    "title": "Wild",
+    "authors": [
+      "Cheryl Strayed"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7249596-M.jpg",
+    "pageCount": 363,
+    "publishedDate": "1767",
+    "genre": [
+      "Travel",
+      "American Authors",
+      "Biography"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL15474046W",
+    "title": "Just Kids",
+    "authors": [
+      "Patti Smith"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/6671097-M.jpg",
+    "pageCount": 320,
+    "publishedDate": "2006",
+    "genre": [
+      "Women poets",
+      "Chelsea Hotel",
+      "Women rock musicians"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL20336031W",
+    "title": "Know My Name",
+    "authors": [
+      "Chanel Miller"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/9264396-M.jpg",
+    "pageCount": 376,
+    "publishedDate": "2019",
+    "genre": [
+      "Biography & Memoir",
+      "nyt:combined-print-and-e-book-nonfiction=2019-10-13",
+      "New York Times bestseller"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL50283W",
+    "title": "A People's History of the United States",
+    "authors": [
+      "Howard Zinn"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/10592817-M.jpg",
+    "pageCount": 695,
+    "publishedDate": "1980",
+    "genre": [
+      "nyt:paperback_nonfiction=2010-05-16",
+      "New York Times bestseller",
+      "History"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL276558W",
+    "title": "Guns, Germs, and Steel",
+    "authors": [
+      "Jared Diamond"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7884018-M.jpg",
+    "pageCount": 528,
+    "publishedDate": "1997",
+    "genre": [
+      "prize:pulitzer=1998",
+      "Ethnology",
+      "Criticism and interpretation"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL20651950W",
+    "title": "The Splendid and the Vile",
+    "authors": [
+      "Erik Larson"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/9293917-M.jpg",
+    "pageCount": 608,
+    "publishedDate": "2020",
+    "genre": [
+      "Churchill, winston, 1874-1965",
+      "Prime ministers, great britain",
+      "World war, 1939-1945, great britain"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL2700123W",
+    "title": "Hiroshima",
+    "authors": [
+      "John Hersey"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/419758-M.jpg",
+    "pageCount": 120,
+    "publishedDate": "1702",
+    "genre": [
+      "Kernwapens",
+      "World War, 1939-1945",
+      "Atomic bomb"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL1892617W",
+    "title": "A Brief History of Time",
+    "authors": [
+      "Stephen Hawking"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/10432365-M.jpg",
+    "pageCount": 241,
+    "publishedDate": "1988",
+    "genre": [
+      "Cosmologie",
+      "Temps (durée)",
+      "Espace-temps"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL1884862W",
+    "title": "Silent Spring",
+    "authors": [
+      "Rachel Carson"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/3825693-M.jpg",
+    "pageCount": 336,
+    "publishedDate": "1962",
+    "genre": [
+      "Pesticides",
+      "Biological control",
+      "Toxicology"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17710047W",
+    "title": "Astrophysics for People in a Hurry",
+    "authors": [
+      "Neil deGrasse Tyson"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7984709-M.jpg",
+    "pageCount": 209,
+    "publishedDate": "2017",
+    "genre": [
+      "Astrophysics",
+      "Science",
+      "Cosmology"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL16820830W",
+    "title": "The Sixth Extinction",
+    "authors": [
+      "Elizabeth Kolbert"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7910870-M.jpg",
+    "pageCount": 352,
+    "publishedDate": "2014",
+    "genre": [
+      "Extinction (Biology)",
+      "Mass extinctions",
+      "Environmental disasters"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL16086010W",
+    "title": "The Lean Startup",
+    "authors": [
+      "Eric Ries"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7104760-M.jpg",
+    "pageCount": 336,
+    "publishedDate": "2011",
+    "genre": [
+      "New York Times bestseller",
+      "New business enterprises",
+      "Organizational effectiveness"
+    ],
+    "description": ""
+  },
+  {
+    "id": "openlibrary-mans-search-for-meaning",
+    "title": "Man's Search for Meaning",
+    "authors": [
+      "Viktor E. Frankl"
+    ],
+    "cover": "https://covers.openlibrary.org/b/isbn/9780807014295-M.jpg",
+    "pageCount": 165,
+    "publishedDate": "1946",
+    "genre": [
+      "Memoir",
+      "Psychology"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL2629977W",
+    "title": "The 7 Habits of Highly Effective People",
+    "authors": [
+      "Stephen R. Covey"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/10079937-M.jpg",
+    "pageCount": 374,
+    "publishedDate": "1989",
+    "genre": [
+      "Success- Psychological aspects",
+      "Character",
+      "Success"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL2010879W",
+    "title": "Rich Dad, Poor Dad",
+    "authors": [
+      "Robert T. Kiyosaki"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/8315603-M.jpg",
+    "pageCount": 241,
+    "publishedDate": "1990",
+    "genre": [
+      "Rich people",
+      "Personal Finance",
+      "Investments"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL18195597W",
+    "title": "I'll Be Gone in the Dark",
+    "authors": [
+      "Michelle McNamara"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/8351551-M.jpg",
+    "pageCount": 360,
+    "publishedDate": "2018",
+    "genre": [
+      "Serial murders",
+      "Case studies",
+      "Serial murder investigation"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL20262W",
+    "title": "The Devil in the White City",
+    "authors": [
+      "Erik Larson"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/541027-M.jpg",
+    "pageCount": 496,
+    "publishedDate": "2003",
+    "genre": [
+      "Social life and customs",
+      "Murder",
+      "Open Library Staff Picks"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17573878W",
+    "title": "Bad Feminist",
+    "authors": [
+      "Roxane Gay"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7848731-M.jpg",
+    "pageCount": 324,
+    "publishedDate": "2014",
+    "genre": [
+      "Race awareness in motion pictures",
+      "Conduct of life",
+      "African Americans in mass media"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL2683365W",
+    "title": "Notes of a Native Son",
+    "authors": [
+      "James Baldwin"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/6545174-M.jpg",
+    "pageCount": 175,
+    "publishedDate": "1955",
+    "genre": [
+      "African Americans",
+      "Race relations",
+      "Social conditions"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL43100620W",
+    "title": "Slouching Towards Bethlehem",
+    "authors": [
+      "Joan Didion"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/419596-M.jpg",
+    "pageCount": 238,
+    "publishedDate": "1967",
+    "genre": [
+      "Social life and customs",
+      "Hippies",
+      "American literature"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL18147687W",
+    "title": "The Body Keeps the Score",
+    "authors": [
+      "Bessel van der Kolk"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/8315367-M.jpg",
+    "pageCount": 520,
+    "publishedDate": "2014",
+    "genre": [
+      "Post-traumatic stress disorder",
+      "Treatment",
+      "Therapie"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL17361140W",
+    "title": "Grit",
+    "authors": [
+      "Angela Duckworth"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/7438753-M.jpg",
+    "pageCount": 353,
+    "publishedDate": "2016",
+    "genre": [
+      "leadership",
+      "business",
+      "Personality"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL1878267W",
+    "title": "Emotional Intelligence",
+    "authors": [
+      "Daniel Goleman"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/1359485-M.jpg",
+    "pageCount": 368,
+    "publishedDate": "1995",
+    "genre": [
+      "Emotions and cognition",
+      "Intellect",
+      "Success, psychological aspects"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL1974548W",
+    "title": "Into Thin Air",
+    "authors": [
+      "Jon Krakauer"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/241603-M.jpg",
+    "pageCount": 335,
+    "publishedDate": "1996",
+    "genre": [
+      "History",
+      "Adventure Consultants. Guided Expedition (1996 : Mount Everest)",
+      "Adventure Consultants Guided Expedition (1996 : Mount Everest)"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL31248807W",
+    "title": "Between the World and Me",
+    "authors": [
+      "Ta-Nehisi Coates"
+    ],
+    "cover": "",
+    "pageCount": 0,
+    "publishedDate": "",
+    "genre": [],
+    "description": ""
+  },
+  {
+    "id": "/works/OL16026786W",
+    "title": "Salt",
+    "authors": [
+      "Mark Kurlansky"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/6873606-M.jpg",
+    "pageCount": 496,
+    "publishedDate": "2002",
+    "genre": [
+      "Salt industry and trade",
+      "Salt",
+      "Specimens"
+    ],
+    "description": ""
+  },
+  {
+    "id": "/works/OL7986135W",
+    "title": "Stiff",
+    "authors": [
+      "Mary Roach"
+    ],
+    "cover": "https://covers.openlibrary.org/b/id/1726839-M.jpg",
+    "pageCount": 304,
+    "publishedDate": "2003",
+    "genre": [
+      "Lijken",
+      "Experimenten",
+      "Human dissection"
+    ],
     "description": ""
   },
   {
@@ -117,42 +736,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780593540428-M.jpg",
     "pageCount": 320,
     "publishedDate": "2023",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-125908801",
-    "title": "Stealing Home (Beyond the Play, #3)",
-    "authors": [
-      "Grace Reilly"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9798986905167-M.jpg",
-    "pageCount": 426,
-    "publishedDate": "2023",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-81341438",
-    "title": "Breakaway (Beyond the Play, #2)",
-    "authors": [
-      "Grace Reilly"
-    ],
-    "cover": "",
-    "pageCount": 422,
-    "publishedDate": "2022",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-81339977",
-    "title": "First Down (Beyond the Play, #1)",
-    "authors": [
-      "Grace Reilly"
-    ],
-    "cover": "",
-    "pageCount": 310,
-    "publishedDate": "2022",
     "genre": [],
     "description": ""
   },
@@ -400,18 +983,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-10507293",
-    "title": "The Selection (The Selection, #1)",
-    "authors": [
-      "Kiera Cass"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780062059932-M.jpg",
-    "pageCount": 336,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-50093704",
     "title": "In Five Years",
     "authors": [
@@ -516,18 +1087,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780399590948-M.jpg",
     "pageCount": 309,
     "publishedDate": "2023",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-58756420",
-    "title": "I Kissed Shara Wheeler",
-    "authors": [
-      "Casey McQuiston"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9781250244451-M.jpg",
-    "pageCount": 356,
-    "publishedDate": "2022",
     "genre": [],
     "description": ""
   },
@@ -984,19 +1543,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-24465724",
-    "title": "Happily Ever After (The Selection, #0.4, 0.5, 2.5, 2.6, 3.3)",
-    "authors": [
-      "Kiera Cass",
-      "Sandra Suy"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780062414090-M.jpg",
-    "pageCount": 416,
-    "publishedDate": "2015",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-13526165",
     "title": "Where'd You Go, Bernadette",
     "authors": [
@@ -1379,55 +1925,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-13166892",
-    "title": "Too Many Doubts (The Sweet Life #3)",
-    "authors": [
-      "Francine Pascal"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9781429958356-M.jpg",
-    "pageCount": 0,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-13166890",
-    "title": "Lies and Omissions (The Sweet Life #2)",
-    "authors": [
-      "Francine Pascal"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9781429958349-M.jpg",
-    "pageCount": 96,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-53500543",
-    "title": "The Mystery of the Forgotten Family (The Boxcar Children Mysteries)",
-    "authors": [
-      "Gertrude Chandler Warner",
-      "Anthony VanArsdale"
-    ],
-    "cover": "",
-    "pageCount": 0,
-    "publishedDate": "2020",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-255507",
-    "title": "Houseboat Mystery (The Boxcar Children, #12)",
-    "authors": [
-      "Gertrude Chandler Warner"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780807534137-M.jpg",
-    "pageCount": 128,
-    "publishedDate": "1967",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-41014903",
     "title": "Warcross (Warcross, #1)",
     "authors": [
@@ -1436,18 +1933,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780399547980-M.jpg",
     "pageCount": 368,
     "publishedDate": "2017",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-9593913",
-    "title": "Requiem (Delirium, #3)",
-    "authors": [
-      "Lauren Oliver"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780062014535-M.jpg",
-    "pageCount": 391,
-    "publishedDate": "2013",
     "genre": [],
     "description": ""
   },
@@ -1464,18 +1949,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-13453998",
-    "title": "Pandemonium (Delirium, #2)",
-    "authors": [
-      "Lauren Oliver"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9782012028043-M.jpg",
-    "pageCount": 378,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-4671",
     "title": "The Great Gatsby",
     "authors": [
@@ -1484,32 +1957,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg",
     "pageCount": 180,
     "publishedDate": "1925",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-6609765",
-    "title": "Out of My Mind (Out of My Mind, #1)",
-    "authors": [
-      "Sharon M. Draper"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9781416971702-M.jpg",
-    "pageCount": 295,
-    "publishedDate": "2010",
-    "genre": [
-      "nostalgia"
-    ],
-    "description": ""
-  },
-  {
-    "id": "goodreads-11614718",
-    "title": "Delirium (Delirium, #1)",
-    "authors": [
-      "Lauren Oliver"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780061726835-M.jpg",
-    "pageCount": 441,
-    "publishedDate": "2011",
     "genre": [],
     "description": ""
   },
@@ -1604,18 +2051,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9781250078384-M.jpg",
     "pageCount": 622,
     "publishedDate": "2019",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-363318",
-    "title": "The Mystery in the Mall (The Boxcar Children, #72)",
-    "authors": [
-      "Gertrude Chandler Warner"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780439056083-M.jpg",
-    "pageCount": 128,
-    "publishedDate": "1999",
     "genre": [],
     "description": ""
   },
@@ -1840,18 +2275,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-40669514",
-    "title": "Chomp",
-    "authors": [
-      "Carl Hiaasen"
-    ],
-    "cover": "",
-    "pageCount": 306,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-28006120",
     "title": "The Ship of the Dead (Magnus Chase and the Gods of Asgard, #3)",
     "authors": [
@@ -1900,18 +2323,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-13623777",
-    "title": "Ungifted (Ungifted #1)",
-    "authors": [
-      "Gordon Korman"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780061742668-M.jpg",
-    "pageCount": 280,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-7362158",
     "title": "Girl in Translation",
     "authors": [
@@ -1920,31 +2331,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9781594487569-M.jpg",
     "pageCount": 305,
     "publishedDate": "2010",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-1109828",
-    "title": "The Amusement Park Mystery (The Boxcar Children, #25)",
-    "authors": [
-      "Gertrude Chandler Warner"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780807503195-M.jpg",
-    "pageCount": 128,
-    "publishedDate": "1992",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-363303",
-    "title": "The Mystery of the Purple Pool (The Boxcar Children, #38)",
-    "authors": [
-      "Gertrude Chandler Warner",
-      "Charles Tang"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780807554081-M.jpg",
-    "pageCount": 121,
-    "publishedDate": "1994",
     "genre": [],
     "description": ""
   },
@@ -1973,20 +2359,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-30531592",
-    "title": "Payback (Masterminds, #3)",
-    "authors": [
-      "Gordon Korman"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9781443428811-M.jpg",
-    "pageCount": 336,
-    "publishedDate": "2017",
-    "genre": [
-      "favorites"
-    ],
-    "description": ""
-  },
-  {
     "id": "goodreads-33143533",
     "title": "Barely Missing Everything (Barely Missing Everything, #1)",
     "authors": [
@@ -2009,18 +2381,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780743477109-M.jpg",
     "pageCount": 249,
     "publishedDate": "1623",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-13083",
-    "title": "Hoot",
-    "authors": [
-      "Carl Hiaasen"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780440421702-M.jpg",
-    "pageCount": 292,
-    "publishedDate": "2002",
     "genre": [],
     "description": ""
   },
@@ -2166,18 +2526,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-11607446",
-    "title": "The Wishing Spell (The Land of Stories, #1)",
-    "authors": [
-      "Chris Colfer"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780316201575-M.jpg",
-    "pageCount": 438,
-    "publishedDate": "2012",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-40961427",
     "title": "1984",
     "authors": [
@@ -2249,20 +2597,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780763625894-M.jpg",
     "pageCount": 228,
     "publishedDate": "2006",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-27161841",
-    "title": "From Hero to Zero (Middle School #10)",
-    "authors": [
-      "James  Patterson",
-      "Chris Tebbetts",
-      "Laura Park"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780316346900-M.jpg",
-    "pageCount": 288,
-    "publishedDate": "2018",
     "genre": [],
     "description": ""
   },
@@ -2355,18 +2689,6 @@
     "description": ""
   },
   {
-    "id": "goodreads-9252036",
-    "title": "The Penderwicks at Point Mouette (The Penderwicks, #3)",
-    "authors": [
-      "Jeanne Birdsall"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780375858512-M.jpg",
-    "pageCount": 295,
-    "publishedDate": "2011",
-    "genre": [],
-    "description": ""
-  },
-  {
     "id": "goodreads-40603383",
     "title": "Vincent and Theo: The Van Gogh Brothers",
     "authors": [
@@ -2387,20 +2709,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780316251020-M.jpg",
     "pageCount": 326,
     "publishedDate": "2014",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-12891160",
-    "title": "Get Me out of Here! (Middle School #2)",
-    "authors": [
-      "James  Patterson",
-      "Chris Tebbetts",
-      "Laura Park"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780316206716-M.jpg",
-    "pageCount": 288,
-    "publishedDate": "2012",
     "genre": [],
     "description": ""
   },
@@ -2485,79 +2793,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780439023498-M.jpg",
     "pageCount": 391,
     "publishedDate": "2009",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-266904",
-    "title": "The Penderwicks: A Summer Tale of Four Sisters, Two Rabbits, and a Very Interesting Boy (The Penderwicks, #1)",
-    "authors": [
-      "Jeanne Birdsall"
-    ],
-    "cover": "",
-    "pageCount": 262,
-    "publishedDate": "2005",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-18498292",
-    "title": "The Penderwicks at Last (The Penderwicks, #5)",
-    "authors": [
-      "Jeanne Birdsall"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780385755689-M.jpg",
-    "pageCount": 256,
-    "publishedDate": "2018",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-22693811",
-    "title": "The Penderwicks in Spring (The Penderwicks, #4)",
-    "authors": [
-      "Jeanne Birdsall"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780375870774-M.jpg",
-    "pageCount": 339,
-    "publishedDate": "2015",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-1838166",
-    "title": "The Penderwicks on Gardam Street (The Penderwicks, #2)",
-    "authors": [
-      "Jeanne Birdsall"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780375840906-M.jpg",
-    "pageCount": 320,
-    "publishedDate": "2008",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-290426",
-    "title": "Teacher's Pet (Sweet Valley Twins, #2)",
-    "authors": [
-      "Francine Pascal"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780553156560-M.jpg",
-    "pageCount": 112,
-    "publishedDate": "1986",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-290400",
-    "title": "Best Friends (Sweet Valley Twins, #1)",
-    "authors": [
-      "Francine Pascal",
-      "Jamie Suzanne"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780553156553-M.jpg",
-    "pageCount": 112,
-    "publishedDate": "1986",
     "genre": [],
     "description": ""
   },
@@ -2690,42 +2925,6 @@
     "cover": "https://covers.openlibrary.org/b/isbn/9780770430078-M.jpg",
     "pageCount": 460,
     "publishedDate": "2001",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-32819894",
-    "title": "Restart",
-    "authors": [
-      "Gordon Korman"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9781338053777-M.jpg",
-    "pageCount": 256,
-    "publishedDate": "2017",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-22249695",
-    "title": "Masterminds (Masterminds, #1)",
-    "authors": [
-      "Gordon Korman"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780062299963-M.jpg",
-    "pageCount": 336,
-    "publishedDate": "2015",
-    "genre": [],
-    "description": ""
-  },
-  {
-    "id": "goodreads-9593911",
-    "title": "Pandemonium (Delirium, #2)",
-    "authors": [
-      "Lauren Oliver"
-    ],
-    "cover": "https://covers.openlibrary.org/b/isbn/9780061978067-M.jpg",
-    "pageCount": 375,
-    "publishedDate": "2012",
     "genre": [],
     "description": ""
   },

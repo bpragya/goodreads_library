@@ -32,7 +32,7 @@
   text-orientation: mixed;
   color: #ffffff;
   font-size: 11px;
-  font-family: 'Mansalva', cursive;
+  font-family: 'Lora', serif;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -46,53 +46,53 @@
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
+  border-radius: 12px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-  padding: 12px;
+  padding: 16px;
   display: flex;
-  gap: 10px;
-  width: 220px;
+  gap: 14px;
+  width: 270px;
   z-index: 1000;
   pointer-events: none;
 }
 
 .book-tooltip img {
-  width: 50px;
-  height: 75px;
+  width: 65px;
+  height: 98px;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: 4px;
   flex-shrink: 0;
 }
 
 .book-tooltip-info {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 5px;
 }
 
 .book-tooltip-title {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   color: #333;
 }
 
 .book-tooltip-author {
-  font-size: 12px;
-  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-family: 'Lora', serif;
   color: #666;
 }
 
 .book-tooltip-genre {
-  font-size: 11px;
-  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  font-family: 'Lora', serif;
   color: #777;
   font-style: italic;
 }
 
 .book-tooltip-date,
 .book-tooltip-pages {
-  font-size: 11px;
-  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+  font-family: 'Lora', serif;
   color: #999;
 }

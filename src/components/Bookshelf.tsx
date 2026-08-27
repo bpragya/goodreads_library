@@ -4,60 +4,63 @@ import BookSpine from './BookSpine'
 import './Bookshelf.css'
 
 interface BookshelfProps {
-  shelfCount: number
   books: Book[]
 }
 
-function getSpineWidth(pageCount: number) {
-  if (pageCount <= 0) return 25
-  if (pageCount < 100) return 18
-  if (pageCount < 200) return 24
-  if (pageCount < 400) return 32
-  if (pageCount < 600) return 40
-  return 48
-}
+const SCROLL_AMOUNT = 400
 
-function Bookshelf({ shelfCount, books }: BookshelfProps) {
-  const containerRef = useRef<HTMLDivElement>(null)
-  const [shelfWidth, setShelfWidth] = useState(window.innerWidth)
+function Bookshelf({ books }: BookshelfProps) {
+  const scrollRef = useRef<HTMLDivElement>(null)
+  const [canScrollLeft, setCanScrollLeft] = useState(false)
+  const [canScrollRight, setCanScrollRight] = useState(false)
+
+  function updateScrollButtons() {
+    const el = scrollRef.current
+    if (!el) return
+    setCanScrollLeft(el.scrollLeft > 0)
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 1)
+  }
 
   useEffect(() => {
-    function updateWidth() {
-      if (containerRef.current) {
-        setShelfWidth(containerRef.current.offsetWidth)
-      }
-    }
-    updateWidth()
-    window.addEventListener('resize', updateWidth)
-    return () => window.removeEventListener('resize', updateWidth)
-  }, [])
+    updateScrollButtons()
+    window.addEventListener('resize', updateScrollButtons)
+    return () => window.removeEventListener('resize', updateScrollButtons)
+  }, [books])
 
-  const shelves: Book[][] = Array.from({ length: shelfCount }, () => [])
-  let currentShelf = 0
-  let currentWidth = 0
-
-  for (const book of books) {
-    const width = getSpineWidth(book.pageCount)
-    if (currentWidth + width > shelfWidth && currentShelf < shelfCount - 1) {
-      currentShelf++
-      currentWidth = 0
-    }
-    shelves[currentShelf].push(book)
-    currentWidth += width
+  function scrollByAmount(amount: number) {
+    scrollRef.current?.scrollBy({ left: amount, behavior: 'smooth' })
   }
 
   return (
-    <div className="bookshelf" ref={containerRef}>
-      {shelves.map((shelfBooks, i) => (
-        <div key={i} className="shelf">
-          <div className="shelf-books">
-            {shelfBooks.map((book) => (
+    <div className="bookshelf">
+      <div className="shelf">
+        <div className="shelf-carousel">
+          <button
+            type="button"
+            className="shelf-arrow shelf-arrow-left"
+            onClick={() => scrollByAmount(-SCROLL_AMOUNT)}
+            disabled={!canScrollLeft}
+            aria-label="Scroll shelf left"
+          >
+            &#8249;
+          </button>
+          <div className="shelf-books" ref={scrollRef} onScroll={updateScrollButtons}>
+            {books.map((book) => (
               <BookSpine key={book.id} book={book} />
             ))}
           </div>
-          <div className="shelf-board" />
+          <button
+            type="button"
+            className="shelf-arrow shelf-arrow-right"
+            onClick={() => scrollByAmount(SCROLL_AMOUNT)}
+            disabled={!canScrollRight}
+            aria-label="Scroll shelf right"
+          >
+            &#8250;
+          </button>
         </div>
-      ))}
+        <div className="shelf-board" />
+      </div>
     </div>
   )
 }

@@ -4,30 +4,67 @@
   width: 100%;
 }
 
-/* .bookshelf-side {
-  width: 4px;
-  background: #a0522d;
-  flex-shrink: 0;
-} */
-
-.bookshelf-center {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
 .shelf {
   display: flex;
   flex-direction: column;
 }
 
+.shelf-carousel {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
 .shelf-books {
   height: 180px;
+  width: 100%;
   background: transparent;
   display: flex;
   align-items: flex-end;
   gap: 0px;
-  padding: 0;
+  padding: 0 48px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.shelf-books::-webkit-scrollbar {
+  display: none;
+}
+
+.shelf-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  line-height: 1;
+  color: #999;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.shelf-arrow:hover:not(:disabled) {
+  color: #27ADF5;
+}
+
+.shelf-arrow:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.shelf-arrow-left {
+  left: 0;
+}
+
+.shelf-arrow-right {
+  right: 0;
 }
 
 .shelf-board {
@@ -60,12 +97,14 @@
     width: 100%;
   }
 
-  /* .bookshelf-side {
-    width: 3px;
-  } */
-
   .shelf-books {
     height: 140px;
+    padding: 0 32px;
+  }
+
+  .shelf-arrow {
+    width: 28px;
+    font-size: 24px;
   }
 
   .shelf-board {

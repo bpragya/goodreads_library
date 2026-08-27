@@ -63,7 +63,7 @@ function BookSearch({ onAddBook }: BookSearchProps) {
       <input
         type="text"
         className="autocomplete-input"
-        placeholder="Search for a book..."
+        placeholder="Add a book..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => results.length > 0 && setShowDropdown(true)}
