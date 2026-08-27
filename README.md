@@ -1,32 +1,43 @@
-# React + TypeScript + Vite
+# Virtual Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A virtual bookshelf that catalogs every book I've read. The books sit as spines on a scrollable shelf carousel. Hover over a spine to see the cover, author, genre, and page count!
 
-Currently, two official plugins are available:
+## Why this exists
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Reading is one of the most reliable ways to build knowledge, and the more you know, the more analytically you're able to think. You have more to connect new ideas to, more perspectives to reason from, and more patterns to recognize. This project is a way to keep a visible, browsable record of that reading, rather than letting a finished book disappear into a list.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Single scrollable shelf carousel of every book you've read
+- Search-and-add books via the [Open Library](https://openlibrary.org/) API
+- Books persist in the browser (`localStorage`), seeded from a one-time Goodreads CSV import
+- Hover popups with cover art and book details
 
-## Expanding the Oxlint configuration
+## Tech stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- **[React 19](https://react.dev/)** + **[TypeScript](https://www.typescriptlang.org/)** for the UI
+- **[Vite](https://vite.dev/)** for the dev server and build
+- **[Open Library API](https://openlibrary.org/developers/api)** for book search, metadata, and cover art
+- **Plain CSS** (no framework) with [Lora](https://fonts.google.com/specimen/Lora) from Google Fonts
+- **Browser `localStorage`** for persistence — no backend or database
+- **[oxlint](https://oxc.rs/)** for linting
+- A standalone **Node.js script** (`scripts/import-goodreads.mjs`) for one-time CSV import, decoupled from the app itself
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Running it locally
+
+Requires [Node.js](https://nodejs.org/) (includes npm).
+
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Then open the local URL Vite prints (usually `http://localhost:5173`).
+
+Other commands:
+
+```bash
+npm run build    # production build
+npm run preview  # serve the production build locally
+npm run lint     # run oxlint
+```
